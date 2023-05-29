@@ -56,3 +56,11 @@ Module that manages if the controller should be able to: Have health, take damag
 ## Use Stamina System
 
 Module that manages if the controller will use a stamina system when sprinting aswell as regenerate the missing stamina.
+
+## Dependencies
+This package uses 2 dependencies. It uses the _new_ Unity Input system with messages for the Input of the controller. It also uses Unity's Cinemachine for the movement of the Camera.
+
+## License
+
+This package is under the [MIT](https://choosealicense.com/licenses/mit/) license.
+
