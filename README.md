@@ -7,10 +7,10 @@ This package contains a simple FPS Controller for your games in Unity ! Did you 
 
 ## Installation
 
-Just download the package and import it into your project with Unity.
+Just download the [package](https://github.com/AlexPallottini/FPSController-master/blob/main/FPSController.unitypackage) and import it into your project with Unity.
 ## Usage
 
-Just drag the prefab from ```Assets/FPSController/Core/Prefabs``` to your scene and start tweaking the controller configuration to your liking.
+All you need to do is drag the prefab from ```Assets/FPSController/Core/Prefabs``` to your scene and start tweaking the controller configuration to your liking.
 
 
 ## Modules Explained
