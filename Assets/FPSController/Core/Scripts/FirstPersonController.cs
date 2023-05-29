@@ -311,10 +311,9 @@ namespace FPController
         {
             if(Physics.Raycast(Camera.main.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance))
             {
-                if (hit.collider.gameObject.layer == 6 && (currentInteractable == null || hit.collider.gameObject.GetInstanceID() != currentInteractable.gameObject.GetInstanceID()))
+                if (( interactionLayer == (interactionLayer | (1 << hit.collider.gameObject.layer)) ) && (currentInteractable == null || hit.collider.gameObject.GetInstanceID() != currentInteractable.gameObject.GetInstanceID()))
                 {
                     hit.collider.TryGetComponent(out currentInteractable);
-
                     if (currentInteractable)
                         currentInteractable.OnFocus();
 
